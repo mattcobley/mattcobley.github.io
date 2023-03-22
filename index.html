@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>html { font-family: "Lato", sans-serif }</style>
+  </head>
+  <body>
+    
+      <div id="root"></div>
+      <script src="https://s3.eu-west-1.amazonaws.com/widgets-dev.moneyhub.co.uk/widgets.bundle.js"></script>
+      <script>
+        window.moneyhub.init({
+          elementId:"root",
+          type:"affordability",
+          widgetId:"1a7620a5-8c40-456d-bf35-e66bc3153e02",
+          params:{
+            externalUserId:"MattTest1",
+            name: "Matt Test Name",
+          },
+          logger: console,
+        })
+      </script>
+    
+  </body>
+</html>
